@@ -73,7 +73,7 @@
 .sectionBottom {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;   /* MUHIM */
+  flex-wrap: wrap;   
   margin-top: 40px;
 }
 

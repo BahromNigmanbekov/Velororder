@@ -18,7 +18,7 @@
   gap: 0;
 }
 
-/* Header */
+
 .checkout-header {
   margin-bottom: 32px;
 }
@@ -189,7 +189,7 @@
   cursor: not-allowed;
 }
 
-/* Note */
+
 .checkout-note {
   font-size: 11px;
   color: #bbb;
@@ -199,7 +199,6 @@
   margin: 0;
 }
 
-/* Confirmed state */
 .checkout-confirmed {
   display: flex;
   flex-direction: column;
@@ -239,7 +238,7 @@
   line-height: 1.6;
 }
 
-/* Empty state */
+
 .checkout-empty {
   display: flex;
   align-items: center;
@@ -253,7 +252,7 @@
   font-weight: 300;
 }
 
-/* ── CartPage.css ─────────────────────────────────── */
+
 
 
 
@@ -384,7 +383,7 @@
   color: #aaa;
 }
 
-/* Actions row */
+
 .cart-item-actions {
   display: flex;
   align-items: center;

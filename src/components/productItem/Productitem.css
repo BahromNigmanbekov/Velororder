@@ -1,4 +1,4 @@
-/* Grid container */
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -23,17 +23,16 @@
   box-shadow: 0 22px 45px rgba(0, 0, 0, 0.15);
 }
 
-/* Product link */
 .product-link {
   display: block;
   text-decoration: none;
   color: inherit;
 }
 
-/* Image box */
+
 .product-image-box {
   width: 100%;
-  padding-top: 100%; /* square */
+  padding-top: 100%; 
   position: relative;
   overflow: hidden;
   background: #f4f4f4;
@@ -55,7 +54,7 @@
   filter: brightness(1.05);
 }
 
-/* Title & price */
+
 .product-title {
   font-size: 1.2rem;
   font-weight: 700;
@@ -71,7 +70,7 @@
   margin: 0 16px 16px;
 }
 
-/* Add to cart button */
+
 .my-add-cart-btn {
   display: block;
   width: calc(100% - 32px);
@@ -91,7 +90,7 @@
   box-shadow: 0 10px 20px rgba(38, 115, 255, 0.35);
 }
 
-/* Sold out badge */
+
 .sold-out-badge {
   position: absolute;
   top: 12px;
